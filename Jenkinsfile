@@ -5,7 +5,7 @@ pipeline {
         DOCKER_REGISTRY = 'merveagacayak/app'
         DOCKER_CREDENTIALS = 'Jenkins'
         DOCKER_IMAGE = ''
-        KUBECONFIG_CREDENTIALS_ID = 'kubeconfig'
+        KUBECONFIG_CREDENTIALS_ID = 'kubeconfig-base64' // Buraya oluşturduğunuz secret ID'yi koyun
     }
 
     stages {
