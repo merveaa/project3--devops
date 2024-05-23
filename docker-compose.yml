@@ -20,7 +20,7 @@ services:
     ports:
       - "8081:8081"
     depends_on:
-      - database
+      - swe304
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://database:5432/postgres
       SPRING_DATASOURCE_USERNAME: postgres
