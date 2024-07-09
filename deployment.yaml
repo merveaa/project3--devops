@@ -23,6 +23,6 @@ spec:
             - name: SPRING_DATASOURCE_USERNAME
               value: postgres
             - name: SPRING_DATASOURCE_PASSWORD
-              value: Password4.
+              value: password
             - name: SERVER_PORT
               value: "8081"
