@@ -8,7 +8,7 @@ services:
     environment:
       POSTGRES_DB: postgres
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: "Password4."
+      POSTGRES_PASSWORD: "password"
     ports:
       - "5432:5432"
     networks:
@@ -24,7 +24,7 @@ services:
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://database:5432/postgres
       SPRING_DATASOURCE_USERNAME: postgres
-      SPRING_DATASOURCE_PASSWORD: "Password4."
+      SPRING_DATASOURCE_PASSWORD: "password"
       SPRING_JPA_DATABASE: postgresql
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
       SPRING_JPA_OPEN_IN_VIEW: false
